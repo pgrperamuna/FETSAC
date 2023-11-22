@@ -1,0 +1,223 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+nav{
+    background:gray;
+    height: 80px;
+    width: 100%;
+    z-index: 2;
+    position: fixed;
+}
+.para{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 80px;
+    color: aliceblue;
+}
+.para h1{
+    font-size: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.para p{
+    font-style: italic;
+}
+label.name{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding-top: 0;
+    padding-right: 100px;
+    font-weight: bold;
+    padding-left: 20px;
+    font-style: italic;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+   display: inline-block;
+   line-height: 80px;
+   margin: 0 5px;
+}
+nav ul li a{
+    color:white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+.home:hover{
+    background: #1b9bff;
+}
+.Publication:hover{
+    background: #1b9bff;
+}
+.event:hover{
+    background: #1b9bff;
+}
+.awards:hover{
+    background: #1b9bff;
+}
+.price{
+    width: 100%;
+    height: 800px ;
+    background-image: url(Images/17973\ copy.jpg);
+}
+ .price .boos{
+    position: absolute;
+    font-size: 250%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 30px;
+    margin-left: 5%;
+    font-size: 20px;
+    width: 40%;
+    top: 25%;
+    align-items: center;
+}
+.price img{
+    position: absolute;
+    width: 40%;
+    left: 50%;
+    top: 25%;
+}
+.cup{
+    width: 100%;
+    font-size: 15px;
+}
+.boos_one{
+    width: 100%;
+    height: 800px ;
+    background-image: url(Images/17973\ copy.jpg);
+}
+
+.boos_one{
+    position: relative;
+    top: 30px;
+    width: 50%;
+    height:50% ;
+}
+.boos_one img{
+    position: relative;
+    left: 75px;
+    width: 90%;
+    margin-top: 50px;
+}
+.cup_two{
+    position: absolute;
+    font-size: 250%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    width: 80%;
+    left: 110%;
+    margin-top: 30px;
+}
+.cup_thapowa{
+    font-size: 15px;
+}
+.footer{
+    width: 100%;
+    padding: 100px 10%;
+    background-color:gray;
+    display: flex;
+    border-top-left-radius: 125px;
+    border-bottom-right-radius:125px ;
+    position:absolute;
+    padding: 100px 0 30px;
+    font-size: 13px;
+    line-height: 20px;
+    z-index: 2;
+    height: 300px;
+    top: 1450px;
+  } 
+  .row{
+    width: 85%;
+    left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: absolute;
+    top: 150px;
+  }
+  .col{
+    flex-basis: 25%;
+    padding: 10px;
+  }
+  .col  img{
+    position:absolute;
+    width: 70px;
+    height: 70px;
+    top: -80%;
+    left: 100px;
+  }
+  
+  .footer div{
+    text-align: center;
+  } 
+  .navilinks{
+  position: absolute;
+  top: 60px;
+  left: 550px;
+  font-size: 20px;
+  
+  color: black;
+  }
+  .navilinks ul li a{
+  text-decoration: none;
+  color: white;
+  }
+  .navilinks .navihome {
+  left: 5px;
+  position: absolute;
+  top: 40px;
+  }
+  
+  .navilinks .navipub {
+  position: absolute;
+  top: 40px;
+  left: 80px;
+  }
+  .navilinks .naviawa {
+  position: absolute;
+  top: 40px;
+  left: 200px;
+  }
+  .navilinks .navipev {
+  position: absolute;
+  top: 40px;
+  left:300px ;
+  }
+  .line-container {
+  text-align: center;
+  }
+  .styled-line {
+  position: absolute;
+  border: 1px solid #000;
+  width: 40%;
+  bottom: 130px;
+  left: 450px;
+  }
+  .contact{
+  position: absolute;
+  font-size: 20px;
+  bottom: 60px;
+  margin-left: 550px;
+  }
+  .contact h6{
+  color: white;
+  }
+  
+.last{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 220px;
+}
+
